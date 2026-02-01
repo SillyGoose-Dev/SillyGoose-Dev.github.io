@@ -43,3 +43,48 @@ margin-right: 10px;
 img.dibley {
     max-width: 100%
 }
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 5x 200px 100px 50px;
+  grid-template-columns: 200px 100px 100px;
+  gap: 3px;
+}
+
+.box1 {
+  grid-column: 1 / 4;
+  border: 2px solid #041562;
+  background-color: #041562;
+}
+
+
+.box2 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+  border: 2px solid #041562;
+  background-color: #9694FF; 
+}
+
+.box3 {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  border: 2px solid #041562; 
+}
+
+.box4 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  border: 2px solid #041562; 
+}
+
+.box5 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  border: 2px solid #041562; 
+}
+
+.box6 {
+  grid-column: 1 / 4;
+  grid-row: 4 / 5;
+  border: 2px solid #041562;
+  background-color: #FF2929

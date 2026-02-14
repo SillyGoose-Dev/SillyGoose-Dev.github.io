@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');
+
+
+/*GLOBAL*/
+body {
+    /*padding-top: 5rem;*/
+    margin: 0;
+    padding: 0%;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+main {
+    padding: 20px;
+}
+main.container-fluid {
+    width: +50%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+nav {
+    margin-bottom: 120px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+button.navbar-toggler{
+margin-right: 10px;
+}
+
+.home_2col {
+    margin-bottom: 20px;
+}
+
+img.dibley {
+    max-width: 100%
+}
+
+/*carousel begins here*/
+
+#carouselExampleCaptions {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#carouselExampleCaptions .carousel-inner img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*carousel ends here*/
